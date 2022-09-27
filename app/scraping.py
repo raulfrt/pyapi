@@ -22,8 +22,7 @@ class ScrapingDisco:
         self.server_name = server_name
         self.executor_url = "{}/wd/hub".format(server_name)
         self.scrap_url = "https://www.disco.com.ar/electro/informatica"
-        self.first_page = 0
-        self.get_driver_session()
+        # self.get_driver_session()
 
     def get_driver_session(self):
         # Start browser maximized and disable extensions
@@ -118,6 +117,7 @@ class ScrapingDisco:
         return False
 
     def scraping(self, first_page=0):
+        self.clear_sessions()
         driver = self.get_driver_session()
         driver.get(self.scrap_url)
         btn_next_class = (

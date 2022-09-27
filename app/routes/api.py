@@ -23,6 +23,5 @@ def verify_toke():
 @route_api.route("/scraping-disco", methods=["GET"])
 def scraping():
     first_page = int(request.headers.get("first_page", 0))
-    sd.first_page = first_page
-    response = sd.scraping()
+    response = sd.scraping(first_page)
     return response
