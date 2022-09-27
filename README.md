@@ -192,9 +192,9 @@ curl -X GET \
 de la primera página. Porque en ociones al navegar por la web no se cargaban 
 los artículos. En los siguientes 2 videos se ilustra el problema:
 
-![Navegación por usuario](https://drive.google.com/file/d/1h5LfhwXjYRUqKdntip7JTQWsF4Vb-RNu/view?usp=sharing)
+[Navegación por usuario](https://drive.google.com/file/d/1h5LfhwXjYRUqKdntip7JTQWsF4Vb-RNu/view?usp=sharing)
 
-![Navegación por selenium](https://drive.google.com/file/d/1h5LfhwXjYRUqKdntip7JTQWsF4Vb-RNu/view?usp=sharing)
+[Navegación por selenium](https://drive.google.com/file/d/1h5LfhwXjYRUqKdntip7JTQWsF4Vb-RNu/view?usp=sharing)
 
 
 
