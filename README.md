@@ -73,10 +73,10 @@ para extraer información.
 Flask es un framework minimalista escrito en Python que permite crear 
 aplicaciones web rápidamente y con un mínimo número de líneas de código.
 
-## Instalación
+## Instalación
 
 > El sistema lo desplegaremos en 2 contenedores dockers, utilizando
-doker-compose. Un contenedor con el **webservice** y el otro con **Selenium Grid**
+doker-compose. Un contenedor con el **webservice** corriendo por el puerto **5000** y el otro con **Selenium Grid** corriendo en el puerto **4444**
 
 ### Instalar docker Ubuntu 20.04
 
