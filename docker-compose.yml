@@ -6,7 +6,7 @@ services:
     container_name: selenium
     environment:
       - SE_VNC_NO_PASSWORD=1
-      - SE_NODE_SESSION_TIMEOUT=3600
+      - SE_NODE_SESSION_TIMEOUT=600
     ports:
       - 4444:4444
     restart: always
