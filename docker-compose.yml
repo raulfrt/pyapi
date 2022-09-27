@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  selenium:
+    image: selenium/standalone-chrome
+    container_name: selenium
+    environment:
+      - SE_VNC_NO_PASSWORD=1
+      - SE_NODE_SESSION_TIMEOUT=3600
+    ports:
+      - 4444:4444
+    restart: always
+  app:
+    container_name: app
+    build:
+      context: .
+    volumes:
+      - ./app:/app
+    ports:
+      - 5000:5000
+    command: sh -c "python3 main.py"
+    depends_on:
+      - selenium
