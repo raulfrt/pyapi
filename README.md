@@ -196,6 +196,8 @@ los artículos. En los siguientes 2 videos se ilustra el problema:
 
 [Navegación por selenium](https://drive.google.com/file/d/1h5LfhwXjYRUqKdntip7JTQWsF4Vb-RNu/view?usp=sharing)
 
+[Explicacion](https://drive.google.com/file/d/1qIzitqRYCkHvBcEyWWKI1iW76qwPZYt7/view?usp=sharing)
+
 
 
 
