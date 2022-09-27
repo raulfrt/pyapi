@@ -57,7 +57,7 @@ Una de las grandes ventajas de **Selenium Grid** es que a medidas que vas
 ejecutando el código python puedes visualizar la navegación automática que va
 realizando el navegador.
 
-![Selenium-Grid](./src/img/selenium-grid-1.gif)
+![Selenium-Grid](./doc/img/selenium-grid-1.gif)
 
 Una vez que tengamos el contenido cargado, podemos extraer la información con
 **beatifulsoup**.
@@ -192,9 +192,9 @@ curl -X GET \
 de la primera página. Porque en ociones al navegar por la web no se cargaban 
 los artículos. En los siguientes 2 videos se ilustra el problema:
 
-![Navegación por usuario](./src/video/user-navigation.webm)
+![Navegación por usuario](./doc/video/user-navigation.webm)
 
-![Navegación por selenium](./src/video/selenium-navigation.webm)
+![Navegación por selenium](./doc/video/selenium-navigation.webm)
 
 
 
